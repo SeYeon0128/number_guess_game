@@ -1,0 +1,94 @@
+@media screen and (max-width: 48rem) {
+    .title {
+        font-size: 15vw;
+    }
+}
+.title {
+    font-size: 15vw;
+    font-weight: bold;
+}
+justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important
+;
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+사용자 에이전트 스타일시트
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.container {
+    border: 10px solid white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(247, 243, 242, 0.7);
+}
+body {
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 100vh;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "East Sea Dokdo", cursive;
+    background-image: url(image/soju.jpeg);
+}
+.container {
+    border: 10px solid white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(247, 243, 242, 0.7);
+}
+.button-style {
+    height: 80px;
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-size: 30pt;
+    font-weight: bold;
+}
+body {
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 100vh;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "East Sea Dokdo", cursive;
+    background-image: url(image/soju.jpeg);
+}
+body {
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 100vh;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "East Sea Dokdo", cursive;
+    background-image: url(술게임.jpg);
+}
