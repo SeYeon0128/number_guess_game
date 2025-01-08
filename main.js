@@ -52,6 +52,7 @@ function play(){
 
     if(chance<1){
         resultvalue.textContent="Game Over!!!";
+        alert("정답은 "+computerNumber+" 입니다!!!"); 
         playbutton.disabled = true;
     }
 
@@ -61,6 +62,8 @@ function play(){
 function reset(){
     //숫자 입력 부분의 값을 비운다.
     userInput.value="";
+    //history도 리셋하기
+    history=[];
     //새로운 랜덤 숫자를 뽑는다.
     pickrandomNum();
     
